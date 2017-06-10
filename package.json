@@ -1,0 +1,22 @@
+{
+  "name": "frontend-ui-dronezone",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.html",
+  "scripts": {
+    "start": "browser-sync start --server \"src\" --files \"src\" --open \"external\" --no-notify --no-ghost-mode",
+    "lint": "stylelint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/constgen/frontend-ui-dronezone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "7.11.0",
+    "browser-sync": "2.18.12",
+    "stylelint-config-standard": "16.0.0"
+  }
+}
